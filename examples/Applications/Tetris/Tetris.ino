@@ -54,7 +54,7 @@ void setup(void) {
   make_block( 7, 0xF8FC);       // _D_,DDD  PINK
   //----------------------------------------------------------------------
   // M5.Lcd.drawJpgFile(SD, "/tetris.jpg");     // Load background from SD
-  GO.lcd.drawJpg(tetris_img, 34215); // Load background from file data
+  GO.lcd.drawJpg(tetris_img, 42606); // Load background from file data
   PutStartPos();                             // Start Position
   for (int i = 0; i < 4; ++i) screen[pos.X + 
    block.square[rot][i].X][pos.Y + block.square[rot][i].Y] = block.color;
